@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>  
     <remote name="origin" fetch=".." />  
-    <default revision="master" remote="origin" />
+    <default revision="master" remote="master" />
 
-    <project name="C51_lib" path="../C51_lib" />
+    <project name="../C51_lib" path="../C51_lib" />
 </manifest>

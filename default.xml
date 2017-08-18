@@ -6,4 +6,5 @@
     </project>
  
     <project path="C51_lib" name="C51_lib"  />
+    <project path="repo_test" name="repo_test"  />
 </manifest>

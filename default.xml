@@ -3,9 +3,5 @@
     <remote name="origin" fetch=".." review="review.source.android.com" />  
     <default revision="master" remote="origin" />
 
-    <project name="project/OrangeTest" path="build" >  
-        <copyfile src="makefile" dest="makefile.mk" />
-    </project>
-
-    <project name="project/C51_lib" path="test" />
+    <project name="project/C51_lib" path="C51_lib" />
 </manifest>

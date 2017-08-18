@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>  
-    <remote name="origin" fetch=".." />  
-    <default remote="origin" revision="master" />
+    <remote name="origin" fetch="./base" />  
+    <default revision="master" remote="origin" sync-j="4" />
 
-    <project name="repo_test" path="repo_test" >  
-        <copyfile src="makefile" dest="makefile.mk" />
+    <project name="repo_test" path="repo_test" revision="master">  
+        <copyfile src="makefile.mk" dest="makefile" />
     </project>
 
-    <project name="C51_lib" path="C51_lib" />
+    <project name="C51_lib" path="C51_lib" revision="master"/>
 </manifest>

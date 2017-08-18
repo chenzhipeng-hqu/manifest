@@ -3,8 +3,9 @@
     <remote name="origin" fetch=".." />  
     <default remote="origin" revision="master" />
 
+    <project name="project/repo_test" path="repo_test" >  
+        <copyfile src="makefile" dest="makefile.mk" />
     </project>
- 
-    <project path="C51_lib" name="C51_lib"  />
-    <project path="repo_test" name="repo_test"  />
+
+    <project name="project/C51_lib" path="C51_lib" />
 </manifest>

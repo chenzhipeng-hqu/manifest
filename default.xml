@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>  
-    <remote name="origin" fetch="." />  
+    <remote name="origin" fetch="https://github.com/czp874298842/" />  
     <default revision="master" remote="origin" sync-j="4" />
 
-    <project name="repo_test" path="repo_test" revision="master">  
-        <copyfile src="makefile.mk" dest="makefile" />
-    </project>
-
+    <project name="OrangeTest2" path="OrangeTest2" revision="master"/>
     <project name="C51_lib" path="C51_lib" revision="master"/>
 </manifest>

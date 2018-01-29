@@ -4,5 +4,6 @@
     <default revision="master" remote="origin" sync-j="4" />
 
     <project name="OrangeTest2" path="OrangeTest2" revision="master"/>
+    <project name="OrangeTest" path="OrangeTest" revision="master"/>
     <project name="C51_lib" path="C51_lib" revision="master"/>
 </manifest>

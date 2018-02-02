@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>  
-    <remote name="origin" fetch="https://github.com/czp874298842/" />  
-    <default revision="master" remote="origin" sync-j="4" />
+    <remote name="origin" fetch="https://github.com/" />  
+    <default revision="master" remote="origin" sync-j="8" />
 
-    <project name="OrangeTest2" path="OrangeTest2" revision="master"/>
-    <project name="C51_lib" path="C51_lib" revision="master"/>
+    <project name="czp874298842/OrangeTest2" path="OrangeTest2" revision="master"/>
+    <project name="czp874298842/OrangeTest" path="OrangeTest" revision="master"/>
+    <project name="czp874298842/C51_lib" path="C51_lib" revision="master"/>
+    <project name="QuantumLeaps/qpc" path="qpc" revision="master"/>
+
 </manifest>

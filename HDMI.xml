@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>  
-    <remote name="origin" fetch="https://github.com/czp874298842/" />  
-    <default revision="master" remote="origin" sync-j="4" />
+    <remote name="origin" fetch="https://github.com/" />  
+    <default revision="master" remote="origin" sync-j="8" />
 
-    <project name="EDID" path="EDID" revision="master"/>
-    <project name="Hotplug" path="Hotplug" revision="master"/>
-    <project name="HDCP" path="HDCP" revision="master"/>
+    <project name="czp874298842/EDID" path="EDID" revision="master"/>
+    <project name="czp874298842/Hotplug" path="Hotplug" revision="master"/>
+    <project name="czp874298842/HDCP" path="HDCP" revision="master"/>
+
 </manifest>

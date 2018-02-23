@@ -5,6 +5,6 @@
 
     <project name="czp874298842/80C51" path="80C51"/>
     <project name="czp874298842/C51_lib" path="C51_lib" revision="master"/>
-    <project name="QuantumLeaps/qpc" path="qpc" revision="master"/>
+    <project name="QuantumLeaps/qpn" path="qpn" revision="master"/>
 
 </manifest>

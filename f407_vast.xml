@@ -4,6 +4,6 @@
     <default revision="master" remote="origin" sync-j="8" />
 
     <project name="czp874298842/vast" path="vast" revision="vast"/>
-    <project name="czp874298842/f407_vast" path="f407_vast" revision="f407_vast"/>
+    <project name="czp874298842/STM32F4" path="f407_vast" revision="f407_vast"/>
 
 </manifest>

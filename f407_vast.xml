@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<manifest>  
+    <remote name="origin" fetch="https://github.com/" />  
+    <default revision="master" remote="origin" sync-j="8" />
+
+    <project name="czp874298842/vast" path="vast" revision="vast"/>
+    <project name="czp874298842/f407_vast" path="f407_vast" revision="f407_vast"/>
+
+</manifest>

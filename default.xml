@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <manifest>  
-    <remote name="origin" fetch=".." review="review.source.android.com" />  
-    <default revision="master" remote="origin" />
+    <remote name="origin" fetch="ssh://git@github.com:" />  
+    <default revision="master" remote="origin" sync-j="8" />
 
-    <project name="project/OrangeTest" path="build" >  
-        <copyfile src="makefile" dest="makefile.mk" />
-    </project>
+    <project name="czp874298842/STM32F4" path="f407_rtt" revision="f407_rtt"/>
+    <project name="czp874298842/vast" path="vast" revision="vast"/>
 
-    <project name="project/C51_lib" path="test" />
 </manifest>
